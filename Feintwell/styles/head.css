@@ -1,0 +1,45 @@
+body {
+    background-color: #EFE3C2;
+    font-family: 'Helvetica';
+    font-size: 19px;
+	color: #123524;
+}
+
+.topnav {
+    background-color: #F72C5B;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #85A947;
+    color: #123524;
+}
+
+.topnav a.active {
+    background-color: #EFE3C2;
+    color: #123524;
+}
+
+
+
+nav .topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
