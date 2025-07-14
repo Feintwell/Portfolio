@@ -1,0 +1,76 @@
+.coding-section {
+  padding: 40px;
+
+}
+
+.coding-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.coding-text {
+  flex: 2;           /* Takes up more space */
+  min-width: 300px;
+  padding-right: 20px; /* Adds some spacing before the image */
+}
+
+.coding-image {
+  flex: 1;
+  min-width: 250px;
+  text-align: right;
+}
+
+.coding-image img {
+  width: 250px;           /* Resize the image */
+  height: auto;           /* Keep aspect ratio */
+  border-radius: 12px;    
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  border: 3px solid #399918; /* Optional: subtle border */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.coding-image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+@media (max-width: 768px) {
+  .coding-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .coding-image {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+.uni {
+  padding: 40px;
+}
+
+.year-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.semester {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .year-row {
+    flex-direction: column;
+  }

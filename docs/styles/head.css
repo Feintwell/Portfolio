@@ -1,0 +1,37 @@
+body {
+    background-color: pink /*#EFE3C2*/;
+    font-family: 'Helvetica';
+    font-size: 19px;
+	color: #123524;
+}
+
+.foot {
+    background-color: #F72C5B;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.heart-bullets {
+  list-style: none;
+  padding-left: 0;
+  color: #123524; /* Dark green text */
+  font-size: 1.1rem;
+}
+
+.heart-bullets li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.heart-bullets li::before {
+  content: "❤"; /* Heart Unicode */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #06D001 /*FF0B55*/; /* Your theme's hot pink */
+  font-size: 1.2rem;
+  line-height: 1;
+}
