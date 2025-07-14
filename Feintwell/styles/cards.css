@@ -8,8 +8,7 @@
 
 .team-card {
     background-color: #BFEA7C;
-    border: 3px solid #ddd;
-	border-color: #123524;
+    border: 3px solid #123524;
     border-radius: 8px;
     width: 400px;
     padding: 2rem;
@@ -19,7 +18,20 @@
 
 .team-card:hover {
     transform: translateY(-12px);
+    background-color: #399918;
+    border-color: #123524;
 }
+
+.team-card:hover p {
+    color: #FFB0B0;
+}
+
+
+.team-card:hover h3 {
+    color: #FE7171;
+}
+
+
 
 
 .team-card img {

@@ -1,5 +1,5 @@
 body {
-    background-color: #EFE3C2;
+    background-color: pink /*#EFE3C2*/;
     font-family: 'Helvetica';
     font-size: 19px;
 	color: #123524;
@@ -31,7 +31,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  color: #FF0B55; /* Your theme's hot pink */
+  color: #06D001 /*FF0B55*/; /* Your theme's hot pink */
   font-size: 1.2rem;
   line-height: 1;
 }
