@@ -55,6 +55,9 @@
 
 .uni {
   padding: 40px;
+  background-color: #fefefa;
+  border-top: 5px solid #A7D477;
+  border-bottom: 5px solid #A7D477;
 }
 
 .year-row {
@@ -74,3 +77,9 @@
   .year-row {
     flex-direction: column;
   }
+
+.team {
+  background-color: #FFF4F6;
+  padding: 3rem 1rem;
+}
+
