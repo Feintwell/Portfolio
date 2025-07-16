@@ -12,9 +12,9 @@
 }
 
 .coding-text {
-  flex: 2;           /* Takes up more space */
+  flex: 2;   
   min-width: 300px;
-  padding-right: 20px; /* Adds some spacing before the image */
+  padding-right: 20px;
 }
 
 .coding-image {
@@ -24,16 +24,18 @@
 }
 
 .coding-image img {
-  width: 250px;           /* Resize the image */
-  height: auto;           /* Keep aspect ratio */
+  width: 250px;          
+  height: auto;
   border-radius: 12px;    
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
-  border: 3px solid #399918; /* Optional: subtle border */
-  transition: transform 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  border: 3px solid #399918; 
+  transition: transform 0.3s ease; 
 }
 
 .coding-image img:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
+  transform: scale(1.05);
+
+
 }
 
 @media (max-width: 768px) {
@@ -50,14 +52,12 @@
 
 
 
-
-
-
-.uni {
+ .uni, .prim, .high {
   padding: 40px;
-  background-color: #fefefa;
+  background-color: #A3DC9A;
   border-top: 5px solid #A7D477;
   border-bottom: 5px solid #A7D477;
+ color: #CF0F47;
 }
 
 .year-row {

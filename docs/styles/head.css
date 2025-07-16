@@ -1,5 +1,5 @@
 body {
-    background-color: pink /*#EFE3C2*/;
+    background-color: #FFD6BA /*#EFE3C2*/;
     font-family: 'Helvetica';
     font-size: 19px;
 	color: #123524;
@@ -28,11 +28,11 @@ body {
 }
 
 .heart-bullets li::before {
-  content: "❤"; /* Heart Unicode */
+  content: "❤";
   position: absolute;
   left: 0;
   top: 0;
-  color: #06D001 /*FF0B55*/;
+  color: #FF0B55 /*06D001*/;
   font-size: 1.2rem;
   line-height: 1;
 }
@@ -44,7 +44,7 @@ html {
 .hero {
   text-align: center;
   background: linear-gradient(to right, #F72C5B, #FF748B);
-  color: white;
+  color: #27391C;
   padding: 40px 20px;
   border-radius: 8px;
   margin-bottom: 2rem;
